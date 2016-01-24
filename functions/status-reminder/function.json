@@ -1,0 +1,6 @@
+{
+  "description": "Send status reminders to slack",
+  "timeout": 3,
+  "memory": 128,
+  "role": "arn:aws:iam::032352966958:role/slack-lambda"
+}
