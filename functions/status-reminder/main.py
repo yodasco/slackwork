@@ -21,7 +21,7 @@ logger.setLevel(logging.INFO)
 def handle(event, context):
     payload = {
         "channel": "#status",
-        "username": "webhookbot",
+        "username": "monkeybot",
         "text": "Yo everybody don't forget to post your daily update!",
         "icon_emoji": ":monkey_face:"
     }
